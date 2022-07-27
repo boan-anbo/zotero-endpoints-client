@@ -1,18 +1,21 @@
 {
   "name": "zotero-endpoints-client",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "packageManager": "pnpm@7.2.1",
   "description": "",
   "author": "Bo An <gazagoal@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/boan-anbo/zotero-endpoints-client"
   },
-  "bugs": "https://github.com/antfu/pkg-name/issues",
+  "bugs": "https://github.com/boan-anbo/zotero-endpoints-client/issues",
   "keywords": [],
   "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
