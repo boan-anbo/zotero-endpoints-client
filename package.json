@@ -1,7 +1,7 @@
 {
   "name": "zotero-endpoints-client",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "packageManager": "pnpm@7.2.1",
   "description": "",
   "author": "Bo An <gazagoal@gmail.com>",
@@ -46,7 +46,7 @@
     "start": "esno src/index.ts",
     "test": "vitest",
     "typecheck": "tsc --noEmit",
-    "compile": "unbuild && pnpm link --global"
+    "compile": "unbuild && npm link"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.25.2",
