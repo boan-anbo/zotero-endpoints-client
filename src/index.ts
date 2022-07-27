@@ -1,2 +1,4 @@
-export const one = 1
-export const two = 2
+import { ZoteroEndpointsClient } from './zotero-endpoints-client'
+
+
+export { ZoteroEndpointsClient }
