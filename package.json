@@ -1,16 +1,14 @@
 {
-  "name": "pkg-name",
+  "name": "zotero-endpoints-client",
   "type": "module",
   "version": "0.0.0",
   "packageManager": "pnpm@7.2.1",
   "description": "",
-  "author": "Anthony Fu <anthonyfu117@hotmail.com>",
+  "author": "Bo An <gazagoal@gmail.com>",
   "license": "MIT",
-  "funding": "https://github.com/sponsors/antfu",
-  "homepage": "https://github.com/antfu/pkg-name#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/antfu/pkg-name.git"
+    "url": ""
   },
   "bugs": "https://github.com/antfu/pkg-name/issues",
   "keywords": [],
@@ -44,7 +42,8 @@
     "release": "bumpp && npm publish",
     "start": "esno src/index.ts",
     "test": "vitest",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "compile": "unbuild && pnpm link --global"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.25.2",
@@ -60,5 +59,8 @@
     "unbuild": "^0.7.4",
     "vite": "^2.9.14",
     "vitest": "^0.18.0"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
   }
 }
