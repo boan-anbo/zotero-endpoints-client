@@ -1,0 +1,4 @@
+export enum ClientType {
+  TAURI_HTTP_CLIENT = 'TAURI_HTTP_CLIENT',
+  AXIOS_CLIENT = 'AXIOS_CLIENT',
+}
