@@ -1,4 +1,4 @@
-import type { SearchCondition } from './search-condition'
+import type {SearchCondition} from './search-condition'
 
 
 export type JoinMode = 'ANY' | 'ALL'

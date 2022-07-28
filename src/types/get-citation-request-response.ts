@@ -1,5 +1,5 @@
-import { CiteOptions } from './cite-options'
-import type { CitationNote, LocatorInfo } from './get-citation'
+import {CiteOptions} from './cite-options'
+import type {CitationNote, LocatorInfo} from './get-citation'
 
 export class GetCitationRequest {
   lines: GetCitationRequestEntry[][] = []
