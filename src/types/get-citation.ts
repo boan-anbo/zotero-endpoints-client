@@ -1,5 +1,5 @@
-import { getRandomId } from '../utils/get-random-id'
-import type { Item } from './complete-zotero-item'
+import {getRandomId} from '../utils/get-random-id'
+import type {Item} from './complete-zotero-item'
 
 export interface CitationNote {
   index: number

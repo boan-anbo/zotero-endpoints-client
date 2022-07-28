@@ -1,4 +1,4 @@
-import type { SearchRequest } from './search-request'
+import type {SearchRequest} from './search-request'
 
 export class SearchCondition {
   field: string
